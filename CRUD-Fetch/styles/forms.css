@@ -6,7 +6,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: medium;
    
-}
+}∫
 .header{
     
     justify-content: center;
@@ -16,15 +16,24 @@
 .form {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+ 
     width: 100%;
     height: 100%;
-    background-image: url('../images\ index/background.png');
+    background-image: url('../images-index/background.png');
     background-size: contain;
     background-repeat: repeat-x, repeat-y;
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    justify-content: center;
+    align-self: center;
+    left: 40%;
 
+}
+
+.form label, input{
+
+    width: 20%;
+    
 }
 .main{
     margin: 0px 400px 10px 400px;
@@ -48,6 +57,9 @@
 .squaredfeetHouse{
     background-color: beige;
 }
+.location{
+    background-color: beige;
+}
 .imageHouse{
     background-color: beige;
 }
@@ -55,47 +67,4 @@
     cursor: pointer;
     color: white;
     background-color: blue;
-}
-
-///*{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    width: 100%;
-    height: 100%;
-    background-image: url('../wallpaperAFA.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Roboto Slab', serif;
-    color: goldenrod;
-    background-color: rgb(0, 166, 255);
-
-}
-
-.title, .subtitle  {
-    text-align: center;
-
-}
-.form{
-    display: flex;
-    padding: 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form input, .form select, .form button{
-    min-width: 400px;
-
-}
-
-.form input{
-    padding: 5px;
-    font-size: 20px;
 }

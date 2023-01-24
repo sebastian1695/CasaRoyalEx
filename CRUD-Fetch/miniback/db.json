@@ -1,0 +1,174 @@
+{
+  "Houses": [
+    {
+      "kind": "uyuyuyuyuyuyuyuyuyuyuyuy",
+      "enviroment": "neighbourhood",
+      "rooms": "1",
+      "parking": "1",
+      "Squaredfeet": "2",
+      "restrooms": "5656565",
+      "city": "Orlando",
+      "price": "2500",
+      "image": "./images-index/isaac-benhesed-249429-unsplash-1 2.png",
+      "id": 1
+    },
+    {
+      "kind": "department",
+      "enviroment": "building",
+      "rooms": "4",
+      "parking": "2",
+      "Squaredfeet": "90",
+      "restrooms": "3",
+      "city": "Orlando",
+      "price": "2500",
+      "image": "./images-index/ostap-senyuk-136511-unsplash-2.png",
+      "id": 2
+    },
+    {
+      "kind": "department",
+      "enviroment": "building",
+      "rooms": "4",
+      "parking": "2",
+      "Squaredfeet": "90",
+      "restrooms": "3",
+      "city": "Orlando",
+      "price": "2500",
+      "image": "./images-index/ostap-senyuk-136511-unsplash-2.png",
+      "id": 7
+    },
+    {
+      "id": 3,
+      "kind": "house",
+      "enviroment": "condominium",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 2,
+      "Squaredfeet": 140,
+      "image": "./images-index/lily-banse-330451-unsplash-1.png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 4,
+      "kind": "house",
+      "enviroment": "countryside",
+      "rooms": 10,
+      "parking": "yes",
+      "restrooms": 5,
+      "Squaredfeet": 540,
+      "image": "./images-index/naomi-hebert-188443-unsplash-1.png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 5,
+      "kind": "house",
+      "enviroment": "neighbourhood",
+      "rooms": 8,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 1240,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2.png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 6,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 8,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 9,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 6,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 10,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 11,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/chuttersnap-348307-unsplash-1-2 (1).png",
+      "city": "Orlando",
+      "price": 2500
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "kind": "house",
+      "enviroment": "neighbourhood",
+      "rooms": 4,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 240,
+      "image": "./images-index/isaac-benhesed-249429-unsplash-1 2.png",
+      "city": "Orlando",
+      "price": 2500
+    },
+    {
+      "id": 6,
+      "kind": "hut",
+      "enviroment": "countryside",
+      "rooms": 3,
+      "parking": "yes",
+      "restrooms": 3,
+      "Squaredfeet": 140,
+      "image": "./images-index/lily-banse-330451-unsplash-1.png",
+      "city": "Orlando",
+      "price": 2500
+    }
+  ]
+}

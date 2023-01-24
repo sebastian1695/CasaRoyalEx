@@ -1,23 +1,25 @@
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title> Casa Royal exercise</title>
-</head>
-<body>
-    <header class="TopTopHeader">
-        <nav class="TopTopTopNav">
-      
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="./styles/Styleindex.css">
+        <title> Casa Royal exercise</title>
+
+    </head>
+    <body>
+<header class="TopTopHeader">
+    <nav class="TopTopTopNav">
+        
         <nav class="TopTopNav">
             <p>
                 San Francisco 
             </p>
-            <p>
-                (1)707 300 282 0880
-            </p> 
+                <p>
+                    (1)707 300 282 0880
+                </p>
 
             <p>
                 Monday- Sunday 5am -10n
@@ -32,7 +34,7 @@
             
             <figure class="TopTopFigure">
     
-                <img src="./images index/Fill 3.png" alt="">
+                <img src="./images-index/Fill 3.png" alt="">
                 <h2> casaRoyal SF</h2>
             </figure>
             
@@ -47,41 +49,46 @@
                 <a href="">CONTACT </a>
                 
             </nav>
-            <a href=""> COMPARE</a>
+            <a class="aCompare" href=""> COMPARE</a>
+            <nav class="NavSubmit">
             <button>Submit Listing</button>
-            
+            </nav>
         
 
         </nav>
        
 
     </header>
+    <a href="./images-index/chuttersnap-348307-unsplash-1-2 (1).png"></a>
+    
 
-    <main>
+    <main class="main">
         <section class="MidSection">
-            <article>
+            <article class="letusguide">
             <h1>Let Us Guide You Home</h1>
             <p> Find your dreamed house</p>
             </article>
             <form class="MidSectionTop"> 
                 
                 <label> Type</label>
+                <label >Select Type</label>
                 <select >
-                    <option> mansion </option>
-                    <option> mansion </option>
-                    <option> mansion </option>
+                    <option>House</option>
+                    <option>Department </option>
+                    <option>Hut </option>
+                    <option>Room</option>
 
                 </select>
 
                 <label > Status</label>
                 <select >
-                    <option> able</option>
-                    <option> able</option>
-                    <option> able</option>
+                    <option> For rent</option>
+                    <option> For Sale</option>
+                    
                 </select>
 
                 <input type="search" placeholder="Search for properties, suburbs or keywords">
-                <button>FIND PROPERTIES</button>
+                <button class="ButtonFindProp">FIND PROPERTIES</button>
             </form>
         </section>
         <section>
@@ -89,15 +96,20 @@
             <h3> CASA ROYAL STATE AGENCY</h3>
             <h1> Featured Properties</h1>
             </article>
-            <section class="ContenedorCards">
+            <a href="./images-index/isaac-benhesed-249429-unsplash-1 2.png"></a>
+            <section id="ContenedorCards" class="ContenedorCards">
                 <article class="Card">
-                    <img  src="./images index/lily-banse-330451-unsplash-1.png" alt="">
+                    <section class="ForSaleRent" >
+                        <button>For Rent</button>
+                        <button> For Sale</button>
+                    </section>
+                    <img  src="../CRUD-Fetch/images-index/lily-banse-330451-unsplash-1.png" alt="">
                     <h4>Beverly Hills, California </h4>
                     <p> 272 SW Brooklyn AV, Brooklyn,CA</p>
                     <p> 7310, USA </p>
                     <figure class="figureCero">    
                     <figure class="figureUno">
-                        <img src="./images index/agent-1-3-500x375.png" alt="">
+                        <img src="./images-index/agent-1-3-500x375.png" alt="">
                         <p>Carlos Sebastián                   </p>
                     
                     </figure>
@@ -113,15 +125,41 @@
                             <p>2</p>   
                             <img src="./icons/Fill 4.png" alt="">
                              <p>3</p>
-                             <img src="./icons/Rectangle.png" alt="">
+                             <img src="./icons/Fill 5 (1).png" alt="">
                             <p>5</p>
-                        </figure>        
-
-                        </figure>
+                        </figure>    
                     </figure>
-                </article>
-            </section>
+                </figure>
+            </article>
         </section>
-    </main>
+    </section>
+   
+   
+    <h1 class="H1favorito">House favorites</h1>
+    <section id="Cardscontainer">
+
+
+        <article class="main__card">
+            <figure >
+                <img src="./images-index/isaac-benhesed-249429-unsplash-1 2.png" alt="housePhoto1">
+            </figure>
+        
+        </article>
+        <article class="main__card">
+            <figure >
+                <img src="./images-index/background.png" alt="departmentPhoto2">
+            </figure>
+          
+        </article>
+       
+    
+    </section>
+</main>
 </body>
+
+
+<script src="./scripts/script.js" type="module"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</footer>
 </html>
